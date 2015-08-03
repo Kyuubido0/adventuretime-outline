@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+
+body {
+	background: #fff;
+	color: #69606b;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.5;
+	font-family: 'Raleway', Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+.demo-1 {
+	background: #43434b;
+}
+
+a {
+	outline: none;
+	color: #cf4a5c;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #69606b;
+}
+
+
+/* To Navigation Style */
+
+.codrops-demos {
+	padding: 0 0 1em;
+	position: relative;
+}
+
+.codrops-demos a {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 0.6em;
+	letter-spacing: 1px;
+	padding: 0.3em 0;
+	display: inline-block;
+	opacity: 0.7;
+	margin: 0 0.5em;
+	white-space: nowrap;
+	color: #cf4a5c;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+	opacity: 1;
+	color: #69606b;
+}
+
+.codrops-demos a.current-demo {
+	border-bottom: 3px solid #69606b;
+}
